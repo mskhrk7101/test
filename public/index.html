@@ -21,6 +21,26 @@
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
     -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCfwSjqsakbX8X8fgGU1bETB7yHJnU6G6E",
+        authDomain: "test-c7d92.firebaseapp.com",
+        projectId: "test-c7d92",
+        storageBucket: "test-c7d92.appspot.com",
+        messagingSenderId: "259106507243",
+        appId: "1:259106507243:web:f041497a3f8318b33f31ae"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      </script>
+
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
     <style media="screen">
